@@ -1,0 +1,6 @@
+[project]
+name = "test-renovate-lockfile-update-semanticprefixfixdepschoreothers"
+version = "0.0.0"
+description = ""
+requires-python = ">=3.9"
+dependencies = ["cowsay>=5.0"]
