@@ -4,9 +4,11 @@ requires-python = ">=3.9"
 
 [[package]]
 name = "cowsay"
-version = "5.0"
+version = "6.1"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/6b/b8/9f497fd045d74fe21d91cbe8debae0b451229989e35b539d218547d79fc6/cowsay-5.0.tar.gz", hash = "sha256:c00e02444f5bc7332826686bd44d963caabbaba9a804a63153822edce62bbbf3", size = 25760, upload-time = "2022-06-22T01:21:41.932Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f1/13/63c0a02c44024ee16f664e0b36eefeb22d54e93531630bd99e237986f534/cowsay-6.1-py3-none-any.whl", hash = "sha256:274b1e6fc1b966d53976333eb90ac94cb07a450a700b455af9fbdf882244b30a", size = 25560, upload-time = "2023-09-25T16:30:01.619Z" },
+]
 
 [[package]]
 name = "test-renovate-lockfile-update-semanticprefixfixdepschoreothers"
