@@ -13,6 +13,10 @@
       "matchManagers": ["pep621"],
       "matchDepNames": ["typing-extensions"],
       "rangeStrategy": "pin"
+    },
+    {
+      "matchJsonata": ["isLockfileUpdate = true"],
+      "semanticCommitType": "chore"
     }
   ]
 }
