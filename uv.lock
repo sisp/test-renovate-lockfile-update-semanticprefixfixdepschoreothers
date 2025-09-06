@@ -14,7 +14,20 @@ version = "0.0.0"
 source = { virtual = "." }
 dependencies = [
     { name = "cowsay" },
+    { name = "typing-extensions" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "cowsay", specifier = ">=5.0" }]
+requires-dist = [
+    { name = "cowsay", specifier = ">=5.0" },
+    { name = "typing-extensions", specifier = "==4.0.0" },
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/1a/23/748b0c9a5578110b31580c8d2643319adcb3ec91f601b50a955051b51f1d/typing_extensions-4.0.0.tar.gz", hash = "sha256:2cdf80e4e04866a9b3689a51869016d36db0814d84b8d8a568d22781d45d27ed", size = 37038, upload-time = "2021-11-15T15:23:58.981Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/17/61/32c3ab8951142e061587d957226b5683d1387fb22d95b4f69186d92616d1/typing_extensions-4.0.0-py3-none-any.whl", hash = "sha256:829704698b22e13ec9eaf959122315eabb370b0884400e9818334d8b677023d9", size = 22615, upload-time = "2021-11-14T22:11:20.075Z" },
+]

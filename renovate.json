@@ -1,7 +1,18 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
-  "rangeStrategy": "update-lockfile",
   "baseBranchPatterns": ["$default", "fix"],
-  "useBaseBranchConfig": "merge"
+  "useBaseBranchConfig": "merge",
+  "packageRules": [
+    {
+      "matchManagers": ["pep621"],
+      "matchDepNames": ["cowsay"],
+      "rangeStrategy": "update-lockfile"
+    },
+    {
+      "matchManagers": ["pep621"],
+      "matchDepNames": ["typing-extensions"],
+      "rangeStrategy": "pin"
+    }
+  ]
 }
